@@ -1,0 +1,21 @@
+<!--pages/deliveryinput/deliveryinput.wxml-->
+<view class="contains">
+  <view  class="about-img"><image src="{{img}}"  class="in-img" background-size="cover"></image></view>
+  <view class="title">{{title}}</view>
+
+  <view class="ppicker">
+    <picker bindchange="bindPickerChange" value="{{areaIndex}}" range="{{area}}">
+      <view class="inpicker">快递公司：</view>
+      {{area[areaIndex]}}
+    </picker>
+   <view class="asd">
+     <view  class="input">快递单号：</view>
+     <input placeholder="请输入单号" bindinput="passWdInput" />
+   </view>
+ </view>
+
+<view class="btn">
+  <navigator url="../../pages/index/index?type={{userName}}&postid={{userPwd}}" >
+  <button class="loginBtn" type="primary">点击查询</button></navigator>    
+</view>
+</view>

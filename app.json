@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/deliveryinput/deliveryinput",
+    "pages/index/index",
+    
+    "pages/aboutme/aboutme"
+
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "borderStyle": "black",
+    "color": "#000",
+    "backgroundColor": "#fff",
+    "selectedColor": "#0123",
+    "list": [
+      
+      {
+        "pagePath": "pages/deliveryinput/deliveryinput",
+        "text": "快递查询",
+        "iconPath": "images/wuliu.png",
+        "selectedIconPath": "images/wuliu.png"
+      },
+      {
+        "pagePath": "pages/aboutme/aboutme",
+        "text": "关于我",
+        "iconPath": "images/rrr.png",
+        "selectedIconPath": "images/rrr.png"
+      }
+    ]
+  }
+}
